@@ -1,0 +1,88 @@
+#hero {
+    .btn-cta {
+        border-radius: 50px;
+        padding: 20px 30px;
+    }
+
+    .border-color {
+        border: solid 1px #6a50af !important;
+    }
+}
+
+#banner {
+    background-color: $secondaryColor;
+    margin: 50px 0;
+
+    .time-blocks {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        .block {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            border: 1px solid $primaryColor;
+
+            .side-text {
+                position: absolute;
+                bottom: -30px;
+                left: 0px;
+                transform: rotate(270deg);
+                transform-origin: 0 0;
+                font-weight: 500;
+                font-size: 25px;
+                color: $primaryColor;
+            }
+
+            .time-text {
+                font-weight: 200;
+                transform: scaleY(1.4);
+                font-size: 45px;
+                color: $primaryColor;
+            }
+        }
+    }
+
+
+    .column-banner-image {
+        .box-image {
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+
+                @media screen and (min-width:768px) {
+                    width: 110%;
+                    position: absolute;
+                    bottom: 0;
+                    
+                }
+            }
+
+            @media screen and (min-width:768px) {
+                overflow: visible;
+            }
+        }
+    }
+    .space {
+        @media screen and (min-width:320px){
+            padding-left: 15px;
+        }
+    }
+}
+
+.bg-topbanner{
+    background-color: white;
+
+}
+
+.m-topbanner{
+    margin-left: -49px ;
+}
+

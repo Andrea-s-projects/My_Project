@@ -1,0 +1,46 @@
+div#loginSection,
+div#registerSection {
+    min-height: 400px;
+    height: calc(100vh - 506px);
+
+
+    div.card {
+        border-color: $primaryColor;
+    }
+
+
+    $white: rgba(255, 255, 255, 0.4);
+
+    form {
+        background: $white;
+        border-radius: 50px;
+        border-left: 1px solid $white;
+        border-top: 1px solid $white;
+        backdrop-filter: blur(10px);
+        box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+
+        input {
+            background: transparent;
+            border-left: 1px solid $white;
+            border-top: 1px solid $white;
+            border-radius: 50px;
+            backdrop-filter: blur(5px);
+            color: #4a4a4a;
+            transition: all 0.2s ease-in-out;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+        }
+    }
+
+
+}
+
+
+
+div#registerSection {
+    min-height: 600px;
+    height: calc(100vh - 426px);
+}

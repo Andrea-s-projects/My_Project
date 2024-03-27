@@ -1,0 +1,39 @@
+$primaryColor: #6a50af;
+$primaryRGB: 106, 80, 175;
+
+$secondaryColor: #FAF9F6;
+$secondaryRGB: 250, 249, 246;
+
+
+$navbar-light-color: $primaryColor ;
+$btn-font-family: "Courgette", cursive;
+
+:root {
+    --bs-primary: #{$primaryColor};
+    --bs-primary-rgb: #{$primaryRGB};
+
+    --bs-secondary-rgb: #{$secondaryRGB};
+    --bs-nav-link-color: $primaryColor;
+    --bs-font-sans-serif: $btn-font-family;
+}
+
+/* FONT */
+
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
