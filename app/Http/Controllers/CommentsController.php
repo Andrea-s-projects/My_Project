@@ -27,7 +27,7 @@ class CommentsController extends Controller
         $comment->save();
 
         // Ritorna alla pagina dell'annuncio dopo aver aggiunto il commento
-        return redirect()->back()->with('success', 'Il tuo commento è stato inviato per la revisione.');
+         return redirect()->back()->with('success', 'Il tuo commento è stato pubblicato.');
     }
 }
 

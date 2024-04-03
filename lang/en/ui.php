@@ -77,7 +77,7 @@ another business. Customers are crucial because they generate revenue.",
 'bannerB' => 'Get 50% off your order',
 'bannerTitle' => 'Offer of the week',
 
-'bannerdescription' => "The undisputed winner of denim-friendly sandal styles has to be flat and simple thong sandals. They can be paired with virtually every style of women's jeans imaginable, and, as long as you can stand the toe strap, they tend to be really comfortable as well.",
+'bannerdescription' => "Only this week, take advantage of an exclusive 20% discount on all products! Choose from a wide selection of items, including the latest releases.",
 
 'Shopping' => 'Shop Now',
 'Subscribe' => 'Subscribe',

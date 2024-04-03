@@ -79,7 +79,7 @@ otro negocio. Los clientes son cruciales porque generan ingresos.",
 'bannerB' => 'Obtén un 50% de descuento en tu pedido',
 'bannerTitle' => 'Oferta de la semana',
 
-'bannerdescription' => "El indiscutible ganador de los estilos de sandalias amigables con el denim tiene que ser las sandalias planas y simples de dedo. Se pueden combinar con prácticamente todos los estilos de jeans de mujer imaginables, y, siempre y cuando puedas soportar la tira del dedo, tienden a ser realmente cómodas también.",
+'bannerdescription' => "Solo esta semana, ¡aprovecha un descuento exclusivo del 20% en todos los productos! Elige entre una amplia selección de artículos, incluyendo las últimas novedades.",
 
 'Shopping' => 'Comprar ahora',
 'Subscribe' => 'Suscribirse',

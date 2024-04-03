@@ -79,11 +79,15 @@ class RemoveFaces implements ShouldQueue
             $image->save($srcPath);
         }
 
-        $image
-            ->watermark(base_path('resources/img/watermark.png'))
-            ->watermarkPosition('top-left')
-            ->watermarkPadding(0,0, Manipulations::UNIT_PERCENT)
-            ->save($srcPath);
+        if (empty($faces)) {
+            $image
+                ->watermark(base_path('resources/img/watermark.png'))
+                ->watermarkPosition('top-left')
+                ->watermarkPadding(0, 0, Manipulations::UNIT_PERCENT)
+                ->save($srcPath);
+
+            $image->save($srcPath);
+        }
 
         $imageAnnotator->close();
     }

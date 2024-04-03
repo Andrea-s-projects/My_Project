@@ -61,7 +61,7 @@
                     width: 110%;
                     position: absolute;
                     bottom: 0;
-                    
+
                 }
             }
 
@@ -70,19 +70,34 @@
             }
         }
     }
+
     .space {
-        @media screen and (min-width:320px){
+        @media screen and (min-width:320px) {
             padding-left: 15px;
         }
     }
 }
 
-.bg-topbanner{
+.bg-topbanner {
     background-color: white;
 
 }
 
-.m-topbanner{
-    margin-left: -49px ;
+.m-topbanner {
+    margin-left: -49px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+ul.dropdown-menu.show {
+    min-width: 67px !important;
+}
+
+.marg {
+    margin-top: -60px;
 }
 

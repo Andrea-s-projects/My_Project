@@ -4,7 +4,7 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h3 class="mb-3">{{ __('ui.abautusTitle') }}</h3>
-                    <p class="text-muted fs-15">{{ __('ui.abautusDescr') }}</p>
+                    <p class="text-muted fs-15 mb-0">{{ __('ui.abautusDescr') }}</p>
                 </div>
             </div>
             <!--end col-->
@@ -17,20 +17,21 @@
 
                     <div class="swiper-wrapper my-5 ">
                         @foreach ($commentsChunked as $comments)
-                            <!-- Inizio della slide -->
-                            <div class="swiper-slide mt-5">
-                                <div class="w-100 d-flex justify-content-center align-items-center gap-5">
-                                    <!-- Primo commento -->
-                                    @foreach ($comments as $comment)
-                                        <blockquote class="speech-bubble ml-3 d-inline-block rounded-5 card-m">
-                                            <h3>{{ $comment->announcement->title }}</h3>
-                                            <p class="p-bubble text-break ">{{ $comment->body }}</p>
-                                            <cite><b>{{ $comment->user->name }}</b></cite>
-                                        </blockquote>
-                                    @endforeach
-                                </div>
+                        <!-- Inizio della slide -->
+                        <div class="swiper-slide mb-3 ">
+                            <div
+                                class="w-100 text-wrap row row-cols-1 row-cols-md-3  justify-content-center align-items-center">
+                                <!-- Primo commento -->
+                                @foreach ($comments as $comment)
+                                <blockquote class="col speech-bubble ml-3 d-inline-block rounded-5 card-m">
+                                    <h4>{{ $comment->announcement->title }}</h3>
+                                        <p class="p-bubble text-break text-body ">{{ $comment->body }}</p>
+                                        <cite class="marg"><b>{{ $comment->user->name }}</b></cite>
+                                </blockquote>
+                                @endforeach
                             </div>
-                            <!-- Fine della slide -->
+                        </div>
+                        <!-- Fine della slide -->
                         @endforeach
 
 

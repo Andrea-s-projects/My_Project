@@ -34,7 +34,7 @@ class CreateAnnouncement extends Component
         'title' => 'required|min:4',
         'body' => 'required|min:4',
         'category' => 'required',
-        'price' => 'required',
+        'price' => 'required|numeric|max:20000',
 
         'images.*' => 'image|max:1024',
         'temporary_images.*' => 'image|max:1024',
@@ -43,7 +43,8 @@ class CreateAnnouncement extends Component
     protected array $messages = [
         'required' => 'Il campo :attribute è obbligatorio',
         'min' => 'Testo troppo corto',
-        // 'numeric' => 'Il campo :attribute può contenere solo numeri',
+        'price.max' => 'Prezzo troppo alto',
+        'numeric' => 'Il campo :attribute può contenere solo numeri',
 
         'temporary_images.required' => 'L\'immagine è richiesta',
         'temporary_images.*.image' => 'I file devono essere immagini ',

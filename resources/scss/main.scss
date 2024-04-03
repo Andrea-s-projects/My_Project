@@ -169,7 +169,7 @@ body {
 
 /// Unit Removal
 @function strip-unit($num) {
-    @return $num / ($num * 0 + 1);
+    @return calc($num / 1);
 }
 
 
@@ -203,7 +203,7 @@ body {
     width: 15%;
 
     &::before {
-        @include caret(bottom, ($caret-unit / 2), $bubble-bg);
+        @include caret(bottom, calc($caret-unit / 2), $bubble-bg);
         border-top-width: $caret-unit;
         content: '';
         display: block;
@@ -211,7 +211,11 @@ body {
         left: 3rem;
         bottom: -$caret-unit;
         transform-origin: center;
-        transform: rotate(90deg) skew(-(strip-unit($caret-unit))+deg) translateY($caret-unit / 1.5);
+        transform: rotate(90deg) skew(calc(-c(strip-unit($caret-unit)) + deg)) translateY(calc($caret-unit / 1.5));
+    }
+
+    @media screen and (max-width:912px) {
+        width: 56%;
     }
 }
 
@@ -233,8 +237,3 @@ body {
 
 
 }
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-} 

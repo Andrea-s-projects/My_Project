@@ -46,7 +46,7 @@
                   <div class="text">
                       <h5 class="mt-3">Andrea</h5>
                       <h5 class="mt-1">Jr Full Stack Seveloper</h5>
-                      <p><a href="#">Linkedin</a></p>
+                      <p><a href="https://www.linkedin.com/in/andrea-labianca-junior-full-stack-developer/" target="_blank">Linkedin</a></p>
                   </div>
               </div>
           </div>
@@ -59,7 +59,7 @@
                 <div class="text">
                   <h5 class="mt-3">Marco</h5>
                   <h5 class="mt-1">Jr Full Stack Seveloper</h5>
-                  <p><a href="#">Linkedin</a></p>
+                  <p><a href="https://www.linkedin.com/in/salvatore-marco-focetola-dev-web/" target="_blank">Linkedin</a></p>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
               <div class="text">
                 <h5 class="mt-3">Carlo</h5>
                 <h5 class="mt-1">Jr Full Stack Seveloper</h5>
-                <p><a href="#">Linkedin</a></p>
+                <p><a href="https://www.linkedin.com/in/carlo-sokol-junior-full-stack-developer/" target="_blank">Linkedin</a></p>
               </div>
           </div>
       </div>
@@ -85,7 +85,7 @@
             <div class="text">
               <h5 class="mt-3">Luigi</h5>
               <h5 class="mt-1">Jr Full Stack Seveloper</h5>
-              <p><a href="#">Linkedin</a></p>
+              <p><a href="https://www.linkedin.com/in/luigi-resta-junior-full-stack-developer/" target="_blank">Linkedin</a></p>
             </div>
         </div>
     </div>
